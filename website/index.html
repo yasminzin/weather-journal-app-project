@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Journal</title>
+    <link rel="icon" type="image/icon" href="./imgs/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+
+    <div id="digital-clock"></div>
+
+    <div class="holder headline">Weather Journal App</div>
+
+    <div id="app">
+      <div class="holder city-name">
+        <label id="red-label" for="city-name">*Please Enter a Valid City Name</label>
+        <input type="text" id="city-name" placeholder="Enter City Name" />
+        </select>
+      </div>
+
+      <div class="holder feel">
+        <textarea
+          class="myInput"
+          id="feelings"
+          placeholder="How are you feeling today?"
+          rows="9"
+          cols="50"
+        ></textarea>
+        <button id="generate" type="submit">Generate</button>
+      </div>
+
+      <div class="holder entry">
+        <div id = "entryHolder">
+          <img id="icon" src="" alt=""/>
+          <div id="name"></div>
+          <div id="temp"></div>
+          <div id="description"></div>
+          <div id="date"></div>
+          <div id="content"></div>
+        </div>
+    </div>
+
+    <script src="app.js" type="text/javascript"></script>
+    
+  </body>
+
+</html>
