@@ -27,3 +27,7 @@ Entering a zip code to generate the weather data and the date of the city .
 ## Languages Used
 
 HTML, CSS & JS.
+
+## Update
+
+Using city name instead of zip code.
